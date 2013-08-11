@@ -18,7 +18,6 @@
 		7295B0FD1637314100549B7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7295B0FC1637314100549B7D /* Foundation.framework */; };
 		7295B0FF1637314100549B7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7295B0FE1637314100549B7D /* CoreGraphics.framework */; };
 		7295B1051637314200549B7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7295B1031637314200549B7D /* InfoPlist.strings */; };
-		7295B1071637314200549B7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7295B1061637314200549B7D /* main.m */; };
 		7295B10B1637314200549B7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7295B10A1637314200549B7D /* AppDelegate.m */; };
 		7295B10D1637314200549B7D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7295B10C1637314200549B7D /* Default.png */; };
 		7295B10F1637314200549B7D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7295B10E1637314200549B7D /* Default@2x.png */; };
@@ -57,7 +56,6 @@
 		7295B0FE1637314100549B7D /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7295B1021637314200549B7D /* NBSoundCloudActivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBSoundCloudActivity-Info.plist"; sourceTree = "<group>"; };
 		7295B1041637314200549B7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7295B1061637314200549B7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7295B1081637314200549B7D /* NBSoundCloudActivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NBSoundCloudActivity-Prefix.pch"; sourceTree = "<group>"; };
 		7295B1091637314200549B7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NBSoundCloudActivity/AppDelegate.h; sourceTree = "<group>"; };
 		7295B10A1637314200549B7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NBSoundCloudActivity/AppDelegate.m; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 				7295B1021637314200549B7D /* NBSoundCloudActivity-Info.plist */,
 				0172743716377DB30027D555 /* sample.caf */,
 				7295B1031637314200549B7D /* InfoPlist.strings */,
-				7295B1061637314200549B7D /* main.m */,
 				7295B1081637314200549B7D /* NBSoundCloudActivity-Prefix.pch */,
 				7295B10C1637314200549B7D /* Default.png */,
 				7295B10E1637314200549B7D /* Default@2x.png */,
@@ -264,7 +261,7 @@
 		7295B0ED1637314000549B7D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Atlantia Software";
 			};
 			buildConfigurationList = 7295B0F01637314000549B7D /* Build configuration list for PBXProject "NBSoundCloudActivity" */;
@@ -360,7 +357,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7295B1071637314200549B7D /* main.m in Sources */,
 				7295B10B1637314200549B7D /* AppDelegate.m in Sources */,
 				7295B1171637314200549B7D /* ViewController.m in Sources */,
 				0172742E16375C450027D555 /* NBSoundCloudActivity.m in Sources */,
@@ -437,6 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
