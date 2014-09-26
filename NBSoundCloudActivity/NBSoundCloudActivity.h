@@ -36,6 +36,8 @@ typedef void(^NBSoundCloudActivityBlock)(BOOL canceled, NSDictionary* trackInfo,
 @property (nonatomic, copy) NSString* foursquareClientId;
 @property (nonatomic, copy) NSString* foursquareClientSecret;
 @property (nonatomic, copy) NSString* title;
+@property (nonatomic, copy) NSArray* tags;
+@property (nonatomic, retain) UIImage* coverImage;
 @property (nonatomic) BOOL isPrivate;
 
 @end

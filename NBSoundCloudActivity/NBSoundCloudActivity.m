@@ -124,6 +124,8 @@
     
     [shareViewController setTitle:self.title];
     [shareViewController setPrivate:self.isPrivate];
+    [shareViewController setTags:self.tags];
+    [shareViewController setCoverImage:self.coverImage];
     
     return shareViewController;
 }
