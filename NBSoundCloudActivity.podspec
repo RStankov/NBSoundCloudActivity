@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.source       = { :git => "https://github.com/nbonatsakis/NBSoundCloudActivity.git", :tag => "1.0.1" }
   s.platform     = :ios, '6.0'  
-  s.source_files = 'NBSoundCloudActivity', 'NBSoundCloudActivity/**/NBSoundCloudActivity.{h,m}'
+  s.source_files = 'NBSoundCloudActivity/**/NBSoundCloudActivity.{h,m}'
   s.resource  = "NBSoundCloudActivity/soundcloud*.png"
   s.frameworks = 'AVFoundation', 'UIKit' , 'Foundation' , 'CoreGraphics'
   s.requires_arc = true
