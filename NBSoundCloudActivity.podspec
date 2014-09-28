@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'AVFoundation', 'UIKit' , 'Foundation' , 'CoreGraphics'
   s.requires_arc = true
   s.dependency 'CocoaSoundCloudUI', '~> 1.0.9'
-  s.dependency 'CocoaSoundCloudAPI', '~> 1.0.9'
+  s.dependency 'CocoaSoundCloudAPI', '~> 1.0.2'
 end
