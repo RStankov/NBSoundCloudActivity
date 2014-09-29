@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.resource  = "NBSoundCloudActivity/soundcloud*.png"
   s.frameworks = 'AVFoundation', 'UIKit' , 'Foundation' , 'CoreGraphics'
   s.requires_arc = true
-  s.dependency 'CocoaSoundCloudUI', '~> 1.0.3'
-  s.dependency 'CocoaSoundCloudAPI', '~> 1.0.0'
+  s.dependency 'CocoaSoundCloudUI', '~> 1.0.9'
+  s.dependency 'CocoaSoundCloudAPI', '~> 1.0.2'
 end
